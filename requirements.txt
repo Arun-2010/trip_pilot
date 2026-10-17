@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9   # FastAPI needs it to read Twilio's form-encoded webhook body
+google-genai>=1.30
+pydantic>=2.7
+python-dotenv>=1.0
+requests>=2.32            # SerpAPI + Duffel HTTP calls
+twilio>=9.0               # TwiML replies for the WhatsApp webhook
+fpdf2>=2.8                # booking confirmation PDF (pure Python, no system deps)
+pytest>=8.0
